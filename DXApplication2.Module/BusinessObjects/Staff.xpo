@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="649d258f-2b56-4a4f-8814-636f41698dbe" namespace="ManageHotel.Module.BusinessObjects.Staff" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.5.0" name="Staff" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="ddc0fc3e-156a-473a-bdf4-3d7d355037d5">
+      <xpObject Id="bc4ff062-3699-4439-830f-15b478711895" name="Staff" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Staff" designerFileName="Staff.Designer" className="Staff" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Staff" customAttributes="DefaultProperty(&quot;fullName&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="281c3599-a69f-43f2-8a48-096ee2e3ef9f">
+            <field Id="7081e543-a14d-47d1-b8a6-32f9a77f7641" name="fullName" displayName="Họ Tên" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="09acffc2-2d9d-4085-8965-516c28f41400">
+            <field Id="d849e12e-7168-4fd6-bc29-627c17658c68" name="address" displayName="Địa Chỉ" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="53fc8dc9-e388-488d-a7a7-7ab26444e9f3">
+            <field Id="f7cb539e-6fa4-418a-84ae-1af1670e3498" name="phone" displayName="Số Điện Thoại" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="31b386d2-4d32-4da1-a031-0747254d66d8">
+            <field Id="afcdf7a9-4adc-4d11-8037-d5d3b677c1ff" name="email" displayName="Email" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="90960ae0-181f-422f-8a4e-02d385692a00">
+            <field Id="541125a7-bd14-49d7-aa6f-cb9f41cb7e10" name="dateOfBirth" columnType="DateTime" displayName="Ngày Sinh" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;{0:dd/MM/yyyy}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="42fd1099-d74c-4d54-8f70-74e33b91c247">
+            <field Id="729d9ff3-1ff0-49f8-b9ae-0417c706248b" name="position" displayName="Chức Vụ" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="61550fb1-377b-4334-9068-c86edde7a28e">
+            <field Id="6cf03e2c-b9c3-4007-8edc-06a18673ee9a" name="startDate" columnType="DateTime" displayName="Ngày Vào Làm" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;,&quot;dd/MM/yyyy&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;{0:dd/MM/yyyy}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a59eaec7-c9a7-4fc8-964c-0fb5b3e5d763">
+            <field Id="bb78b962-f2ef-4fa4-b579-61c4b642e17b" name="salary" columnType="Decimal" displayName="Lương Cơ Bản" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="16993679-b6b7-4156-846b-e7b3aa992a65" sourceCollectionName="Customers" name="CustomerReferencesStaff" targetFieldName="idStaff">
+            <xpObjectMoniker Id="a1e42282-719e-4fb1-90b5-aa9547400252" />
+          </aggregation>
+          <aggregation Id="7215352d-b5f6-4bdd-8c75-694fb5131252" sourceCollectionName="Counterparties" name="CounterpartyReferencesStaff" targetFieldName="idStaff">
+            <xpObjectMoniker Id="a58aea2b-e656-4169-a806-4d06220f5f37" />
+          </aggregation>
+          <aggregation Id="24e55673-de9e-42cf-9110-72e036ec27f3" sourceCollectionName="ItemsCollection" name="ItemsReferencesStaff" targetFieldName="staffID">
+            <xpObjectMoniker Id="fbbbde02-4463-456d-8656-71de1f87e8bb" />
+          </aggregation>
+          <aggregation Id="d13384a1-12f9-4765-9f4a-70c5eedddc9f" sourceCollectionName="TransactionsCollection" name="TransactionsReferencesStaff" targetFieldName="staffID">
+            <xpObjectMoniker Id="71c733fe-c6e8-4b55-8560-ba5aee273f49" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b06e95fd-394a-4f86-9141-9c74abdf527c">
+            <collectionField Id="f66d3da0-55ea-408d-badd-61110a1cd469" name="Customers" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="35da7e09-4cce-4f24-a01e-4c24e2800bbc">
+            <collectionField Id="6dc4c5a0-5988-4e64-9db6-dcbfe43304b8" name="Counterparties" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="6b59200d-baa6-4875-aaae-510f4871aaf6">
+            <collectionField Id="1e53d6df-cfca-45c9-95a5-a0868d9fae55" name="ItemsCollection" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="913618d1-e2db-4a39-9cb5-6b2a9a97a4e2">
+            <collectionField Id="6d39ecc4-f68a-4f4f-b578-cd2a8f7ea155" name="TransactionsCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ee38921c-5ffd-43c4-8663-4ad14f176c69">
+      <xpObject Id="a1e42282-719e-4fb1-90b5-aa9547400252" name="Customer" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Customer" designerFileName="Customer.Designer" className="Customer" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Customer" customAttributes="DefaultProperty(&quot;fullName&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="259d3510-c45b-486b-a3b6-451a0f14dd76">
+            <field Id="d8fd5f85-1362-4ac9-b92e-b99597c326d8" name="fullName" displayName="Họ Tên" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b308f9e4-a473-419a-a993-c4d3137c97e9">
+            <field Id="507409d9-7bf2-4382-81e6-29fc9dafff94" name="address" displayName="Địa Chỉ" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7cb6e7c8-f26a-40ab-88c9-a98e37ed837d">
+            <field Id="62516d37-ad25-4b77-9021-a639c2ff191f" name="phone" displayName="Số Điện Thoại" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b154c396-9ebf-41ff-a1a5-13263ff82c7e">
+            <field Id="dfe84c0e-282f-4887-aeff-574878121530" name="email" displayName="email" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d1a17693-87ca-44ec-bc56-7cdc161c48d1">
+            <field Id="812e78a6-a9ab-4f5a-b05f-ffc1be1ed29c" name="dateOfBirth" columnType="DateTime" displayName="Ngày Sinh" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat &quot;, &quot;{0:dd/MM/yyyy}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="042a8ec4-81f4-437f-a1fb-f8ba2012be53">
+            <field Id="11b6076f-eb48-4dbf-9ce8-a85ece7a37b6" name="identity" displayName="Mã Định Danh/Hộ Chiếu" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0280fe57-a297-498a-894e-fd01420ecae7">
+            <field Id="722d0cc1-9240-4fa8-9d93-b22b9f362f1a" name="idStaff" displayName="Nhân Viên Tạo" virtualColumnType="Staff" logicalType="Staff" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d0356b04-d9f2-4515-81c2-a8550dc4a915">
+            <field Id="9f3bd6ed-eb2f-4b24-8b3b-296caf9fbe20" name="idCounterparty" displayName="Đối Tác Bảo Lãnh" virtualColumnType="Counterparty" logicalType="Counterparty" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="e61c1bba-d863-4b95-80d8-493635e63441" sourceCollectionName="Bookings" name="BookingReferencesCustomer" targetFieldName="idCustomer">
+            <xpObjectMoniker Id="14d9980f-9828-41f2-81e2-5ed3a8b3021d" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="13b16e86-efc2-4dd8-9f6e-e81f10acc870">
+            <collectionField Id="bc7efd32-84fa-450d-bea1-2f4d5ba975ed" name="Bookings" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="109cdcfe-2654-4067-a45d-c90f18b25971">
+      <xpObject Id="4f1d9a37-cd17-4014-b48d-a035edc765ff" name="Room" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Room" designerFileName="Room.Designer" className="Room" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Room" customAttributes="DefaultProperty(&quot;numberRoom&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="fb859a39-ec6d-4e12-a4cd-e1746a4070f4">
+            <field Id="ea96438c-9dce-40ac-a019-be0fc4600524" name="numberRoom" columnType="Int16" displayName="Mã Phòng" virtualColumnType="Int16" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9b81f942-531a-4233-9d8b-1bdd2837cef9">
+            <field Id="d53367c8-f2e9-4e83-865f-0045a4d37f67" name="typeRoom" displayName="Loại Phòng" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a6ccd5b4-d515-4e88-962b-59e125c10734">
+            <field Id="6718c982-556c-4783-b21a-e85cd503bf37" name="description" displayName="Mô Tả Tiện Ích" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="10e73315-dc3e-4e70-b6f6-02a60ce421d0">
+            <field Id="014b5675-988c-47a0-ae74-197297ebc909" name="status" displayName="Tình Trạng" virtualColumnType="String" delayedUpdateModifiedOnly="false" defaultValue="String#Trống" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="015093e4-c56a-4622-b8fa-0e055267e7d4">
+            <field Id="2ea55023-e862-432b-b56f-e968814f04e2" name="price" columnType="Decimal" displayName="Giá" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="acbc5265-049b-4817-883f-a1f02fe4ae50" sourceCollectionName="BookingDetails" name="BookingDetailReferencesRoom" targetFieldName="idRoom">
+            <xpObjectMoniker Id="15d06bbb-b074-4c5b-aa72-b53aad851836" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="0903b0fe-ba7b-46f9-9088-501903f5f3a5">
+            <collectionField Id="01363010-8754-4dd0-8c66-904a090d12ad" name="BookingDetails" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e39a81d1-66be-443e-a00b-5d256f24409e">
+      <xpObject Id="15d06bbb-b074-4c5b-aa72-b53aad851836" name="BookingDetail" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="BookingDetail" designerFileName="BookingDetail.Designer" className="BookingDetail" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="BookingDetail" customAttributes="DefaultProperty(&quot;idBooking&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="a5f1395d-8469-4117-85c9-35f2472f4449">
+            <field Id="747f90c6-9df6-4417-8c17-c3bec17d6564" name="idBooking" displayName="Người  Đặt Phòng" virtualColumnType="Booking" logicalType="Booking" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4f46ccf4-ef90-4f46-a407-cc18cbf62a0c">
+            <field Id="622397e2-d8f3-4800-979f-92b5e1038e6f" name="idRoom" displayName="Phòng" virtualColumnType="Room" logicalType="Room" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="72b3c40f-542d-462b-8890-ef0c35bf64c8">
+            <field Id="d3d43698-7ed1-4b08-b5c1-0f07e918c055" name="checkInDay" columnType="DateTime" displayName="Ngày Đến" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat &quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f8c2d8d7-99a3-49d1-9fd6-29bdf0c22fd7">
+            <field Id="7aeec137-d961-447c-b12d-ef480083e07d" name="checkOutDay" columnType="DateTime" displayName="Ngày Đi" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat &quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="daef1013-068f-4efe-9913-95be6f5385a9">
+      <xpObject Id="14d9980f-9828-41f2-81e2-5ed3a8b3021d" name="Booking" baseClass="XPObject" userFileName="Booking" designerFileName="Booking.Designer" className="Booking" virtualName="Booking" customAttributes="DefaultProperty(&quot;idCustomer&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="3e4b66f8-305d-4f29-8d82-15c7643ccb5e">
+            <field Id="d60e4277-2907-424a-bb8c-394c24775cb8" name="checkInDay" columnType="DateTime" displayName="Dự kiến ngày đến" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat &quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a8419b83-98f8-4e8e-a1b8-398b7325284a">
+            <field Id="df739293-f12a-4cde-a067-9f2829b50c14" name="checkOutDay" columnType="DateTime" displayName="Dự Kiến Ngày Đi" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;), DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat &quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e0cfda00-0fc1-42f2-a0df-d4bd805aa442">
+            <field Id="1e0bff82-417d-4cf2-b6d0-49e7f9d3604e" name="content" displayName="Nội dung " virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="010e3a1e-6fd1-477c-9b9d-ff2f7c571445">
+            <field Id="6d90a2c6-f03c-46a9-a3f7-364f2abe8dba" name="idCustomer" displayName="Khách Hàng" virtualColumnType="Customer" logicalType="Customer" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="1c86a803-ba7a-476b-9b86-df71c57d9db2" sourceCollectionName="BookingDetails" name="BookingDetailReferencesBooking" targetFieldName="idBooking">
+            <xpObjectMoniker Id="15d06bbb-b074-4c5b-aa72-b53aad851836" />
+          </aggregation>
+          <aggregation Id="9666652a-ded3-4dd2-91ee-24fb8671f172" sourceCollectionName="Invoices" name="InvoiceReferencesBooking" targetFieldName="idBooking">
+            <xpObjectMoniker Id="508a4553-93b1-42c7-8254-7caeea572980" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="a951cc5b-1af4-495c-abe0-ab9013991cc5">
+            <collectionField Id="3b7da144-d595-4648-9f6b-bfaea9eebf47" name="BookingDetails" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="412dbe55-8c51-43a9-83cd-f45ec95306c8">
+            <collectionField Id="8b795aa3-bcb4-4fe6-b3b9-700f9df80e01" name="Invoices" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="dfdb0102-35de-481e-8c0c-0425022440ee">
+      <xpObject Id="a58aea2b-e656-4169-a806-4d06220f5f37" name="Counterparty" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Counterparty" designerFileName="Counterparty.Designer" className="Counterparty" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Counterparty" customAttributes="DefaultProperty(&quot;name&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="ecca3225-4766-4c72-b1db-baf459995bff">
+            <field Id="804fe39c-3d4e-4186-a250-b19b0a2c4802" name="name" displayName="Đối Tác" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="79e6361e-7d58-488d-b734-f9b235334e9f">
+            <field Id="4c7e9060-34a2-446d-8610-df4ca7bc0646" name="email2" displayName="Email Đối Tác" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0802b7f6-c681-45e9-832f-6199ec56b609">
+            <field Id="ad15adb8-6ea5-4269-a3b3-46aea974e750" name="phone2" displayName="Số Điện Thoại Đối Tác" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="16c7581e-d36c-495c-924b-98b1adc13558">
+            <field Id="2f6c7e6d-b28e-409c-86a3-7ae87846d7c3" name="address2" displayName="Địa Chỉ Đối Tác" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b5a6c61d-e47e-4eed-83ab-567ccc82ae26">
+            <field Id="5d764faf-1a2b-4dbc-bfc1-be622b4bf7b0" name="idStaff" displayName="Nhân Viên Tạo" virtualColumnType="Staff" logicalType="Staff" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="e5185dca-76ea-45a7-903a-df3d1cc90cbc" sourceCollectionName="Customers" name="CustomerReferencesCounterparty" targetFieldName="idCounterparty">
+            <xpObjectMoniker Id="a1e42282-719e-4fb1-90b5-aa9547400252" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="218c872b-2606-403c-85b6-e1880c9f657f">
+            <collectionField Id="43f0a05b-5f52-4d84-bda9-42a2e40a0065" name="Customers" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="9d504009-7117-4683-9fec-dfac90b5bff7">
+      <xpObject Id="508a4553-93b1-42c7-8254-7caeea572980" name="Invoice" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Invoice" designerFileName="Invoice.Designer" className="Invoice" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Invoice" customAttributes="DefaultProperty(&quot;priceRoom&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="cf8a2950-3e4f-4530-89fe-ffa2ab740922">
+            <field Id="440701e7-1433-4314-8077-6644893c5ba7" name="priceRoom" columnType="Decimal" displayName="Giá phòng" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ## ### ###&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9d5bd1d2-f3ab-4ed3-a553-ed5b252ae8cd">
+            <field Id="6205172d-73db-41dd-9457-72edec57273b" name="priceService" columnType="Decimal" displayName="Giá dịch vụ khác" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;#### #### ####&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;#### #### ####&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9715e1e3-068a-4fdd-b5b1-89a924916379">
+            <field Id="b803a16c-9e93-42f0-bc20-5ca22361d023" name="Date" columnType="DateTime" displayName="Ngày" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model. ModelDefault(&quot;DisplayFormat&quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fd9be540-f9e1-4f32-a633-8d7404330cb3">
+            <field Id="6a775684-50f6-441f-b3eb-4646bd67c77f" name="paymentStatus" displayName="Trạng thái thanh toán" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1ab96583-94b7-459c-a813-1dfb7cacee64">
+            <persistentAlias Id="a5c056e1-6da5-46f8-a311-34419a15b798" name="amount" columnType="Decimal" virtualColumnType="Decimal" expression="[priceRoom] + [priceService]" displayName="Tổng tiền" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;#### #### ####&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;#### #### ####&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="94fba703-51d5-45db-8556-4ff96f8b3d1c">
+            <field Id="ea43990f-0086-451f-95ce-c097d8a5542e" name="idBooking" virtualColumnType="Booking" logicalType="Booking" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="75dc5beb-5e29-4526-b849-a8b0978cd6c4" sourceCollectionName="PaymentsCollection" name="PaymentsReferencesInvoice" targetFieldName="invoiceID">
+            <xpObjectMoniker Id="dfa8a282-99c2-4bec-985c-a4452293803d" />
+          </simpleAssociation>
+        </saTargets>
+        <aggrTarget>
+          <aggregation Id="888d060f-7ce0-4213-a9db-033a2f351bab" sourceCollectionName="Invoice_Services" name="Invoice_ServiceReferencesInvoice" targetFieldName="invoiceID">
+            <xpObjectMoniker Id="5dfa9e69-6c1d-4e7a-ac1e-6331b5d8429e" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="989b8070-2c6a-4e60-a615-81273e5d08cc">
+            <collectionField Id="e02553d6-4b8d-48ae-9cd8-210069e80bd3" name="PaymentsCollection" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="36174d5e-13bb-4c78-bd0d-9ea62b926ce7">
+            <collectionField Id="656d24b3-827c-4477-ab2f-092efb008dd9" name="Invoice_Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="112d9e2c-e79b-441f-8951-c560726b27fe">
+      <xpObject Id="dfa8a282-99c2-4bec-985c-a4452293803d" name="Payments" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Payments" designerFileName="Payments.Designer" className="Payments" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Payments" customAttributes="DefaultProperty(&quot;paymentMethod&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="67d57c13-e937-4014-a5a5-5c3ed9a8898e">
+            <field Id="d51e1578-3268-44fb-818f-9394359fb82b" name="invoiceID" virtualColumnType="Invoice" logicalType="Invoice" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5acdf5b5-de3d-451c-8d24-90aee71096bc">
+            <field Id="c2f0c533-ff78-4501-be2d-a5baa744d927" name="paymentMethod" displayName="Payment method" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bab40e5c-6a19-4a75-a2ae-03204cbfc024">
+            <field Id="3756f166-cf8d-4932-b751-efb942ac4cf8" name="paymentDate" columnType="DateTime" displayName="Payment date" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model. ModelDefault(&quot;DisplayFormat&quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9ff80c38-d979-400c-8fbc-f346328f215a">
+            <field Id="3c8a1e1e-3348-4c0e-b88b-1e32c2ecd8e0" name="amountPaid" columnType="Decimal" displayName="Amount paid" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ## ### ###&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="682ba1dc-5142-4500-ba15-931dac56cc00">
+      <xpObject Id="6ff1890a-027c-468b-bc3a-3d0dff355b40" name="Service" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Service" designerFileName="Service.Designer" className="Service" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Service" customAttributes="DefaultProperty(&quot;typeService&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="827ae23f-856c-44b7-9e17-5a02bb382399">
+            <field Id="8fab1b50-3c1f-490b-afd2-4a7f3c93cde9" name="typeService" displayName="Type service" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3a0ff5e4-f58b-4d6f-ade1-df5f1daa2fc2">
+            <field Id="906c699d-ecfc-4e3e-a0b6-604b569dece8" name="price" columnType="Decimal" displayName="Price" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ## ### ###&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="e5aac61b-201b-4e5c-9d39-64b90b48af15" sourceCollectionName="Invoice_Services" name="Invoice_ServiceReferencesService" targetFieldName="serviceID">
+            <xpObjectMoniker Id="5dfa9e69-6c1d-4e7a-ac1e-6331b5d8429e" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="556e4e93-815f-41e3-bbbd-33dd4790cc41">
+            <collectionField Id="54de3c59-738e-4143-9d35-a84fee52500d" name="Invoice_Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="34e8f21c-9363-4b21-baab-a6b19c1206f9">
+      <xpObject Id="5dfa9e69-6c1d-4e7a-ac1e-6331b5d8429e" name="Invoice_Service" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Invoice_Service" designerFileName="Invoice_Service.Designer" className="Invoice_Service" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Invoice_Service">
+        <fields>
+          <generalXpObjectHasFields Id="8d5727f2-907a-408f-98f0-d77bb8fa0f1b">
+            <field Id="82ae96fa-daf7-4124-96a2-dbe5932cca43" name="invoiceID" virtualColumnType="Invoice" logicalType="Invoice" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9e8ce83f-5973-4d3b-b273-6662f017034e">
+            <field Id="faf65c45-919b-48d2-acd8-dd2b09b39e20" name="serviceID" virtualColumnType="Service" logicalType="Service" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7fcd6612-7b98-4f0c-894f-ab167430c55d">
+            <field Id="f01e31d2-69f1-495e-90a7-79018a46c8c6" name="quantity" columnType="UInt16" displayName="Số lượng" virtualColumnType="UInt16" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="593eae5a-a819-4de0-b88f-79eb9c5feb40">
+            <field Id="cf90dcae-2411-4f95-8f7b-aaac397e4f66" name="price" columnType="Decimal" displayName="Giá" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ## ### ###&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="81a294a8-d666-48ed-8737-181f3995087e">
+            <persistentAlias Id="ba23ff08-301f-4486-a191-93d3b77dc755" name="amount" columnType="Decimal" virtualColumnType="Decimal" expression="ToDecimal([quantity]) * [price]" displayName="Thành tiền" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ## ### ###&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="adfa3c78-edf7-4b9a-8c52-509e08809ce5">
+      <xpObject Id="0855542a-18cc-42c8-94ce-32bd61b01fb5" name="Contract" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Contract" designerFileName="Contract.Designer" className="Contract" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Contract">
+        <fields>
+          <generalXpObjectHasFields Id="0d6ff5ec-7890-4f6c-9983-272be708cef4">
+            <field Id="a1b6a886-4046-459d-90aa-294eaf428de4" name="contractDetails" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="485d3bf4-8dff-4033-9c79-1a360b21f084">
+            <field Id="6f2092eb-b971-45f8-a3d8-eec086fb6e68" name="contractType" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="72815bc6-71ce-44d7-9bf2-0900c0a07209">
+            <field Id="6f92b327-08c5-44de-bdc2-b5973deb6411" name="contractPrice" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4e26b719-130a-456a-bc09-179922191c86">
+            <field Id="e1005a6f-3fa4-4e7a-aae4-d9c17e9f8689" name="supplierID" virtualColumnType="Supplier" logicalType="Supplier" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="232d3136-cd5a-4199-809c-015b048eccb7">
+      <xpObject Id="bfbb4037-10a4-4fb6-908a-24b545516be8" name="Supplier" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Supplier" designerFileName="Supplier.Designer" className="Supplier" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Supplier">
+        <fields>
+          <generalXpObjectHasFields Id="5a90c0bd-90fc-40d3-9eb8-3cbc8d5fa747">
+            <field Id="2b85ab9f-509f-4df5-b510-55b9e04f433c" name="supplierName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="18d6a9c9-d96c-4410-a460-2f5c283a38c3">
+            <field Id="1415bdd4-957a-4fe7-a651-9059574706ce" name="contractInfo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7bc83ef9-013f-4c2f-bd7a-c4cd27594f6f">
+            <field Id="dff78ad7-5e20-4f77-80de-12f671f67241" name="deliveryHistory" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="733654bb-f2f0-440d-acf6-3a443fc7df0a" sourceCollectionName="Contracts" name="ContractReferencesSupplier" targetFieldName="supplierID">
+            <xpObjectMoniker Id="0855542a-18cc-42c8-94ce-32bd61b01fb5" />
+          </aggregation>
+          <aggregation Id="9b796534-3d3e-4935-b89a-80cc780fbc25" sourceCollectionName="ItemsCollection" name="ItemsReferencesSupplier" targetFieldName="supplierID">
+            <xpObjectMoniker Id="fbbbde02-4463-456d-8656-71de1f87e8bb" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b0fd51eb-2e64-4576-bdc7-6565149ab899">
+            <collectionField Id="191006b8-84e2-4626-a52e-8654b2b3edaf" name="Contracts" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="52fb0f1d-88fd-49ad-8f30-cbdc410d601f">
+            <collectionField Id="93c998b1-9121-49c5-986a-71a1ddf6839d" name="ItemsCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="d17d663b-2337-4b69-be9c-4b0038658ed9">
+      <xpObject Id="fbbbde02-4463-456d-8656-71de1f87e8bb" name="Items" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Items" designerFileName="Items.Designer" className="Items" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Items">
+        <fields>
+          <generalXpObjectHasFields Id="ea5e33fe-ce51-44a0-be09-e4b371762cd2">
+            <field Id="a9c11146-7b82-4fc8-91d5-41ced83b1348" name="itemName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b83f3313-f4ed-4d41-9555-f91307273997">
+            <field Id="3e6bf6cf-f54a-49f3-9f4d-367ce4a2964c" name="itemPrice" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="57eb08fd-57a6-4465-8dfc-1ce197c07048">
+            <field Id="c04834b4-2b60-4a17-8008-396683fc5a40" name="category" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cb97d302-33f1-4c5b-9c1d-6400f540cff0">
+            <field Id="2376044c-9dd2-41e1-b8ad-acd4f71a7b38" name="quantityInStock" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2668270d-b5f6-4462-9831-873040262b57">
+            <field Id="8c2a8a69-6f0a-447b-8b67-d62bcc949f03" name="supplierID" virtualColumnType="Supplier" logicalType="Supplier" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="78442563-68da-457d-b9fd-88f5a74f00df">
+            <field Id="08d6705d-590c-4d11-b2e4-c5af78dc7dfb" name="staffID" virtualColumnType="Staff" logicalType="Staff" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="64bd88f8-973e-4ce1-8579-08ddbc059bd7" sourceCollectionName="TransactionsCollection" name="TransactionsReferencesItems" targetFieldName="itemID">
+            <xpObjectMoniker Id="71c733fe-c6e8-4b55-8560-ba5aee273f49" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="e7063c97-9b92-4fa5-8e11-2d4ee280e3ef">
+            <collectionField Id="1433aad7-0e32-40ac-84cf-3c42e026bef1" name="TransactionsCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="fc334da0-589f-43a4-9e85-aaaff1f9d98f">
+      <xpObject Id="71c733fe-c6e8-4b55-8560-ba5aee273f49" name="Transactions" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Transactions" designerFileName="Transactions.Designer" className="Transactions" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Transactions">
+        <fields>
+          <generalXpObjectHasFields Id="6e78f332-8655-4279-986d-dc7fcc204945">
+            <field Id="cfc355f9-f7e1-4208-9e40-750ca8943e62" name="transactionType" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="976252d7-a078-4446-8ce2-3981000092ba">
+            <field Id="103fa121-c463-48ef-80bf-8c6f898b4740" name="transactionDate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3374ead8-0e69-4ec9-9d54-e4d9cc6e277b">
+            <field Id="fb9708a8-4a86-4c73-aeac-b1dda1e8fcc0" name="quantity" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="18861c5f-eaf8-4b76-959f-966e6a6b12be">
+            <field Id="ea883eba-ad4a-41ec-b991-3caf81f8efa7" name="itemID" columnType="Single" virtualColumnType="Items" logicalType="Items" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ae78b8e6-bdcd-4caf-ab23-2ac34d512d3d">
+            <field Id="8debd65e-1bbe-4410-84a0-92bc7cdf2d59" name="staffID" virtualColumnType="Staff" logicalType="Staff" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Quản Lí Khách Sạn">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.Booking" DefaultListViewAllowEdit="True" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.BookingDetail" DefaultListViewAllowEdit="True" DefaultListViewShowAutoFilterRow="False" DefaultListViewShowFindPanel="False" DefaultLookupEditorMode="AllItems" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.Counterparty" DefaultListViewAllowEdit="True" DefaultListViewShowAutoFilterRow="True" DefaultListViewShowFindPanel="False" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.Customer" DefaultListViewAllowEdit="True" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.Room" DefaultListViewAllowEdit="True" DefaultLookupEditorMode="AllItemsWithSearch" DefaultListViewShowFindPanel="False" DefaultListViewShowAutoFilterRow="False" />
+    <Class Name="ManageHotel.Module.BusinessObjects.Staff.Staff" DefaultListViewAllowEdit="True" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@0c363321-8afa-4e92-88d5-fa478e2ccb2d" Caption="Quản Lý" ImageName="BO_Dashboard" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@1b698aea-9e55-4946-9371-f0745bc8248f" Caption="Nhân Viên" ViewId="Staff_ListView" ImageName="BO_User_32x32" IsNewNode="True" />
+          <Item Id="@6235232f-f521-4948-a226-9137b9788245" Caption="Dịch Vụ" ViewId="Service_ListView" ImageName="BO_User_32x32" IsNewNode="True" />
+          <Item Id="@7865e90e-42d2-4261-82da-643c67d01074" Caption="Đối Tác" ViewId="Counterparty_ListView" ImageName="BO_Position_32x32" IsNewNode="True" />
+          <Item Id="@89c1e5f4-f316-4901-b443-4685eee24307" Caption="Phòng" ImageName="BO_User_32x32" ViewId="Room_ListView" IsNewNode="True" />
+          <Item Id="@ae7eeb9f-75d4-4955-a548-7cf0b6ed9dab" Caption="Khách Hàng" ViewId="Customer_ListView" ImageName="BO_User_32x32" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@0c89336e-17f8-4f1a-9e3d-413ee601680a" Caption="Thanh Toán" ImageName="BO_Invoice_32x32" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@2f90da4c-5aac-4958-b374-d0ba09697270" Caption="Hóa Đơn" ViewId="Invoice_ListView" ImageName="BO_Invoice" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@8eeb7e0f-3e0e-430b-9c23-dcd0b9acef06" Caption="Đặt Phòng" ImageName="BO_Phone" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@25c78298-4dbd-474f-845c-2769cb872944" Caption="Lên Lịch Nhận Phòng" ViewId="Booking_ListView" ImageName="ModelEditor_Views_32x32" IsNewNode="True" />
+          <Item Id="@bb4884ab-118e-49b5-88f6-93bba6c5573c" Caption="Bố Trí Phòng" ImageName="NavigationOptions_32x32" ViewId="Booking_BookingDetails_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@c7d39eab-7435-4b30-ad96-f0155a1f666b" Caption="Sản Phẩm" ImageName="BO_Resources" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@11f73fc3-a16b-4582-885c-456e0dbd7f75" Caption="Thêm Sản Phẩm" ViewId="Items_ListView" ImageName="ProductOrderDetail-21" IsNewNode="True" />
+          <Item Id="@223a40bd-3091-400e-a2e2-52617d693cce" Caption="Nhà Cung Cấp" ViewId="Supplier_ListView" ImageName="AllowUsersToEditRanges" IsNewNode="True" />
+          <Item Id="@86b3024d-d724-47ec-89d8-32bc93484b60" Caption="Hợp Đồng" ViewId="Contract_ListView" ImageName="BO_Contract" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Visible="True" Caption="Báo Cáo" ImageName="BO_Report" />
+    </Items>
+  </NavigationItems>
+  <Options>
+    <Dashboards EnableCreation="False" />
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="BookingDetail_LookupListView" DetailViewID="BookingDetail_DetailView">
+      <SplitLayout ViewsOrder="DetailViewListView" />
+    </ListView>
+    <ListView Id="Invoice_Invoice_Services_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Service_Invoice_Services_ListView" AllowEdit="False" NewItemRowPosition="None" />
+    <ListView Id="Service_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+  </Views>
+</Application>
