@@ -16,7 +16,7 @@ using System.Reflection;
 namespace ManageHotel.Module.BusinessObjects.Staff
 {
 
-    [DefaultProperty("numberRoom")]
+ 
     public partial class Room : DevExpress.Persistent.BaseImpl.BaseObject
     {
         short fnumberRoom;

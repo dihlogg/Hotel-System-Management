@@ -50,6 +50,21 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="Booking_BookingDetails_ListView" NewItemRowPosition="Top" />
+    <DetailView Id="BookingDetail_DetailView">
+      <Items>
+        <PropertyEditor Id="idRoom" PropertyName="idRoom" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="BookingDetail">
+              <LayoutItem Id="idRoom" ViewItem="idRoom" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
     <ListView Id="BookingDetail_LookupListView" DetailViewID="BookingDetail_DetailView">
       <SplitLayout ViewsOrder="DetailViewListView" />
     </ListView>
